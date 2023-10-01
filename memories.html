@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+  h2 {
+    text-align: center;
+    font-family: Sacramento;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+
+  body {
+    background-image: url(https://cdn.shopify.com/s/files/1/0257/6718/2416/files/Party-Background-green-with-presents.jpg?v=1595051600);
+  }
+
+  h1 {
+    font-family: Satisfy;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding: 1%;
+  }
+
+  #gallery {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  @media (max-width:1200px) {
+    #gallery {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+
+      -webkit-column-gap: 20px;
+      -moz-column-gap: 20px;
+      column-gap: 20px;
+    }
+  }
+
+  @media (max-width:800px) {
+    #gallery {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+
+      -webkit-column-gap: 20px;
+      -moz-column-gap: 20px;
+      column-gap: 20px;
+    }
+  }
+
+  @media (max-width:600px) {
+    #gallery {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+    }
+  }
+
+  #gallery img,
+  #gallery video {
+    width: 100%;
+    height: auto;
+    margin: 4% auto;
+    box-shadow: -3px 5px 15px #000;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+
+  .modal-img,
+  .model-vid {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-body {
+    padding: 0px;
+  }
+
+  .head {
+    color: rgb(50, 187, 221);
+  }
+</style>
+
+<body>
+  <main>
+    <section>
+      <h2 class="head">Scroll down the Memory Lane</h2>
+      <video src="Assets/vid7.mp4" controls width=33% height="240px"></video>
+      <video src="Assets/vid2.mp4" controls width=33% height="240px"></video>
+      <video src="Assets/vid3.mp4" controls width=33% height="240px"></video>
+      <br>
+      <br>
+      <br>
+      <video src="Assets/vid4.mp4" controls width=33% height="240px"></video>
+      <video src="Assets/vid5.mp4" controls width=33% height="240px"></video>
+      <video src="Assets/vid6.mp4" controls width=33% height="240px"></video>
+    </section>
+    <section>
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+  </main>
+  <section>
+    <h2 class="head">Vaat Divsacha Bharpur Shubeccha</h2>
+    <div id="gallery" class="container-fluid">
+      <img src="Assets/grp1.jpg" class="img-responsive">
+      <img src="Assets/grp2.jpg" class="img-responsive">
+      <img src="Assets/grp3.jpg" class="img-responsive">
+      <img src="Assets/grp4.jpg" class="img-responsive">
+      <img src="Assets/grp5.jpg" class="img-responsive">
+      <img src="Assets/grp6.jpg" class="card img-responsive">
+      <img src="Assets/grp7.jpg" class="img-responsive">
+      <img src="Assets/grp8.jpg" class="img-responsive">
+      <img src="Assets/grp9.jpg" class="img-responsive">
+      <img src="Assets/grp10.jpg" class="img-responsive">
+      <img src="Assets/grp11.jpg" class="img-responsive">
+      <img src="Assets/grp12.jpg" class="img-responsive">
+      <img src="Assets/grp13.jpg" class="img-responsive">
+      <img src="Assets/grp14.jpg" class="img-responsive">
+      <img src="Assets/grp16.jpg" class="img-responsive">
+      <img src="Assets/grp17.jpg" class="img-responsive">
+      <img src="Assets/grp19.jpg" class="img-responsive">
+      <img src="Assets/grp20.jpg" class="img-responsive">
+      <img src="Assets/grp15.jpg" class="img-responsive">
+      <img src="Assets/grp21.jpg" class="img-responsive">
+      <img src="Assets/grp23.jpg" class="img-responsive">
+      <img src="Assets/grp24.jpg" class="img-responsive">
+      <img src="Assets/grp25.jpg" class="img-responsive">
+      <img src="Assets/grp26.jpg" class="img-responsive">
+
+    </div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section>
+    <h2 class="head">Majhe Photo Kadh Ata</h2>
+    <div id="gallery" class="container-fluid">
+      <img src="Assets/p1.jpg" class="img-responsive">
+      <img src="Assets/p2.jpg" class="img-responsive">
+      <img src="Assets/p3.jpg" class="img-responsive">
+      <img src="Assets/p4.jpg" class="img-responsive">
+      <img src="Assets/p5.jpg" class="img-responsive">
+      <img src="Assets/p6.jpg" class="img-responsive">
+      <img src="Assets/p7.jpg" class="img-responsive">
+      <img src="Assets/p8.jpg" class="img-responsive">
+      <img src="Assets/p8.jpg" class="img-responsive">
+      <img src="Assets/p9.jpg" class="img-responsive">
+      <img src="Assets/p10.jpg" class="img-responsive">
+      <img src="Assets/p11.jpg" class="img-responsive">
+      <video src="Assets/vid8.mp4" class="img-responsive" controls></video>
+    </div>
+
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section>
+
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <section>
+    <style>
+      .card {
+        position: relative;
+        width: 300px;
+        height: 425px;
+        border: 10px solid #79df25;
+        margin: 60px auto 0 auto;
+        box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+        background-color: #e6f0e6;
+      }
+
+      .card .text-container {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+      }
+
+      .strikethrough {
+        text-decoration: line-through;
+      }
+
+      .card .text-container #head {
+        font-family: 'Nobile', sans-serif;
+        font-size: 1.5em;
+        margin: 60px auto 60px auto;
+      }
+
+      .card p {
+        font-size: 1.1em;
+        line-height: 1.4;
+        font-family: 'Nobile';
+        color: #331717;
+        font-style: italic;
+        text-align: center;
+        margin: 30px auto 0px auto;
+        font-weight: 700;
+      }
+
+      .card .front {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: -10px 0px 0px -10px;
+        border: 10px solid #9612eb;
+        backface-visibility: hidden;
+        background-color: #9612eb;
+        /* background-image: url($cover-image);
+            */
+        background-size: contain;
+        transform-style: preserve-3d;
+        transform-origin: 0% 50%;
+        transform: perspective(800px) rotateY(0deg);
+        transition: all 0.8s ease-in-out;
+      }
+
+      .card:hover .front {
+        transform: perspective(800px) rotateY(-170deg);
+        background-color: #41718d;
+      }
+
+      .card:hover .back {
+        transform: perspective(800px) rotateY(-170deg);
+        box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        background-color: #d2dcd2;
+      }
+
+      .card .back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 10px solid #9612eb;
+        margin: -10px 0px 0px -10px;
+        backface-visibility: visible;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+        transform-style: preserve-3d;
+        transform-origin: 0% 50%;
+        transform: perspective(800px) rotateY(0deg);
+        transition: all 0.8s ease-in-out;
+        background-color: #e6f0e6;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+      }
+
+      .imgset {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -215px;
+      }
+
+      .imgset img {
+        box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+        border-radius: 5px;
+      }
+    </style>
+    <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+          <img width="100%"
+            src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+        </div>
+      </div>
+      <div class="text-container" style="overflow-y: scroll;">
+        <p id="head">Happy Birthday Kartiki 🥂🥳</p>
+        <p>Hope your special day brings you all that your heart desires! Here’s wishing you a day full of pleasant
+          surprises! It's your special day get out there and celebrate!
+          Baki jaude punyala kevha yenar e
+          Nhi nhi college sathi nhi party pahije e mhanun 😂😂
+        </p>
+        <hr>
+        <p>-Shantit Kranti AKA: Mrugank</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+          <img width="100%"
+            src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+        </div>
+      </div>
+      <div class="text-container" style="overflow-y: scroll;">
+        <p id="head">Heyyyaaa Tikssss🥰Happieeee Birthdaeeee Ganmannn🎉🎉</p>
+        <p>At first I never thought we would get along so well😂 but now I think... damnn where was this dumb human for
+          all these years !!!
+          Idk how and when we changed from Vrushali n Kartiki to Tikss n Vrushh🥰From please can you send this... to
+          uncountable meaning less messages😌But it is amazingggg🤩 you are one of the sweetest n most pure hearted
+          person I have met❤️</p>
+        <p>Aaj keliye itni tarif bahot hai🙂
+          Let's meet soonnnn...and make many more memories😍I love youuu 💕</p>
+        <hr>
+        <p>Jadhav Baiii AKA: Vrushhh</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+          <img width="100%"
+            src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+        </div>
+      </div>
+      <div class="text-container" style="overflow-y: scroll;">
+        <p id="head">Happy birthday CR kartiki🥳🥳🥳</p>
+        <p>On this special occasion just promise that you will make vidharbian proud of your marathi 🙂
+          Enjoy the day 🤩</p>
+        <p>- Silent Killer AKA: Vinit V</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+          <img width="100%"
+            src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+        </div>
+      </div>
+      <div class="text-container" style="overflow-y: scroll;">
+        <p id="head">Hey happy birthday karkiii😃🥳</p>
+        <p>Gonna send ncb as ur party crashers 😌. Also stay sillyy 😂😂 and great to have you around❤️</p>
+        <p>- Miss Chandler Bong : AKA Niraj 😂</p>
+      </div>
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>
